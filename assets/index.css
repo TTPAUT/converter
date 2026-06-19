@@ -25,3 +25,14 @@
     flex-shrink: 0;
   }
 }
+
+@media (max-width:768px){
+
+  .hdr-name{
+    max-width:120px !important;
+  }
+
+  .clk-sec{
+    display:none !important;
+  }
+}
