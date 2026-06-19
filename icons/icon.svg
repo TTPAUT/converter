@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" viewBox="0 0 192 192">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f5d060"/>
+      <stop offset="100%" style="stop-color:#c08000"/>
+    </linearGradient>
+  </defs>
+  <rect width="192" height="192" rx="42" fill="url(#bg)"/>
+  <!-- Стрелки конвертера -->
+  <g stroke="#1a1000" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <!-- Верхняя стрелка вправо -->
+    <polyline points="136,56 152,72 136,88"/>
+    <path d="M40,88 V72 a32,32 0 0 1 32,-32 H152"/>
+    <!-- Нижняя стрелка влево -->
+    <polyline points="56,136 40,120 56,104"/>
+    <path d="M152,104 V120 a32,32 0 0 1 -32,32 H40"/>
+  </g>
+</svg>
